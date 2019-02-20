@@ -8,6 +8,7 @@ To run this airflow project on docker please get this code on your local machine
 docker-compose up -d
 
 Once the airflow is up and running on docker and access the application using the URL http://localhost:8080/
+Also make sure that the GCP service account is configured under connections section.
 
 Under dags tab please run the dag site-visits-dag 
 
